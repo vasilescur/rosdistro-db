@@ -4460,8 +4460,8 @@ repositories:
       version: 1.4.0-0
     source:
       type: git
-      url: https://github.com/ms-iot/orocos_kinematics_dynamics.git
-      version: init_windows
+      url: https://github.com/orocos/orocos_kinematics_dynamics.git
+      version: master
     status: maintained
   ouster:
     doc:
