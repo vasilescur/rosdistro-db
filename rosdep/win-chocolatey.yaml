@@ -283,7 +283,9 @@ python-serial:
     pip:
       packages: [pyserial]
 python-sip:
-  windows: [sip]
+  windows:
+    pip:
+      packages: [sip]
 python-sphinx:
   windows:
     pip:
