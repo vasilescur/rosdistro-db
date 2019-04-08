@@ -151,6 +151,8 @@ libx11-dev:
   windows: []
 libxml2-utils:
   windows: []
+libxrandr:
+  windows: []
 libzmq3-dev:
   windows: [cppzmq]
 log4cxx:
