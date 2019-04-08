@@ -16,6 +16,8 @@ cmake:
   windows: [ros-cmake]
 ceres-solver:
   windows: [ceres, suitesparse, clapack, openblas, metis]
+clang-format:
+  windows: []
 cppcheck:
   windows: [cppcheck]
 cppunit:
@@ -88,6 +90,8 @@ libopenni-dev:
   windows: [OpenNI]
 libopenni2-dev:
   windows: [OpenNI2]
+libopensplice69:
+  windows: []
 libpcl-all:
   windows:
     chocolatey:
@@ -147,6 +151,8 @@ libx11-dev:
   windows: []
 libxml2-utils:
   windows: []
+libzmq3-dev:
+  windows: [cppzmq]
 log4cxx:
   windows: [log4cxx]
 lua5.2-dev:
@@ -166,6 +172,8 @@ opencv3:
       depends: [libopencv-dev, python-opencv]
 opengl:
   windows: []
+openssl:
+  windows: [openssl]
 pcre:
   windows: []
 pkg-config:
@@ -174,6 +182,12 @@ protobuf:
   windows: [protobuf]
 protobuf-dev:
   windows: [protobuf]
+pydocstyle:
+  windows:
+    pip:
+      packages: [pydocstyle]
+pyflakes3:
+  windows: []
 python:
   windows: []
 python-argparse:
@@ -329,6 +343,14 @@ python3-flake8:
   windows:
     pip:
       package: [flake8]
+python3-pygraphviz:
+  windows:
+    pip:
+      package: [pygraphviz]
+python3-matplotlib:
+  windows:
+    pip:
+      package: [matplotlib]
 python3-lark-parser:
   windows:
     pip:
@@ -369,6 +391,10 @@ python3-pytest:
       package: [pytest]
 python3-qt5-bindings:
   windows: []
+python3-setuptools:
+  windows:
+    pip:
+      package: [setuptools]
 python3-yaml:
   windows:
     pip:
@@ -379,6 +405,8 @@ qtbase5-dev:
   windows: [qt5-sdk]
 rsync:
   windows: []
+rti-connext-dds-5.3.1:
+  windows: []
 sbcl:
   windows: [sbcl]
 sdl:
@@ -387,10 +415,14 @@ sdl-image:
   windows: [sdl_image]
 suitesparse:
   windows: [suitesparse]
+tango-icon-theme:
+  windows: []
 tinyxml:
   windows: [tinyxml]
 tinyxml2:
   windows: [tinyxml2]
+uncrustify:
+  windows: []
 uuid:
   windows: []
 vcpython:
@@ -399,6 +431,8 @@ wxpython:
   windows:
     pip:
       package: [wxPython]
+yaml:
+  windows: []
 yaml-cpp:
   windows: [yaml-cpp]
 zlib:
