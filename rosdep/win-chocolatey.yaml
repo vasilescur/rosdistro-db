@@ -16,6 +16,8 @@ cmake:
   windows: [ros-cmake]
 ceres-solver:
   windows: [ceres, suitesparse, clapack, openblas, metis]
+cppcheck:
+  windows: [cppcheck]
 cppunit:
   windows: [cppunit]
 curl:
@@ -26,6 +28,8 @@ gazebo:
   windows: [gazebo9]
 gazebo9:
   windows: [gazebo9]
+git:
+  windows: [git]
 glut:
   windows: [freeglut]
 google-mock:
@@ -139,6 +143,10 @@ liburdfdom-dev:
   windows: [urdfdom]
 liburdfdom-headers-dev:
   windows: [urdfdom_headers]
+libx11-dev:
+  windows: []
+libxml2-utils:
+  windows: []
 log4cxx:
   windows: [log4cxx]
 lua5.2-dev:
@@ -157,6 +165,8 @@ opencv3:
     chocolatey:
       depends: [libopencv-dev, python-opencv]
 opengl:
+  windows: []
+pcre:
   windows: []
 pkg-config:
   windows: [pkg-config]
@@ -315,6 +325,18 @@ python3-empy:
   windows:
     pip:
       package: [empy]
+python3-flake8:
+  windows:
+    pip:
+      package: [flake8]
+python3-lark-parser:
+  windows:
+    pip:
+      package: [lark-parser]
+python3-lxml:
+  windows:
+    pip:
+      package: [lxml]
 python3-nose:
   windows:
     pip:
@@ -323,14 +345,34 @@ python3-numpy:
   windows:
     pip:
       package: [numpy]
+python3-opencv:
+  windows:
+    pip:
+      packages: [opencv-python]
+python3-pep8:
+  windows:
+    pip:
+      package: [pydot]
+python3-pkg-resources:
+  windows: []
+python3-psutil:
+  windows:
+    pip:
+      package: [psutil]
+python3-pydot:
+  windows:
+    pip:
+      package: [pydot]
 python3-pytest:
   windows:
     pip:
       package: [pytest]
 python3-qt5-bindings:
+  windows: []
+python3-yaml:
   windows:
     pip:
-      package: []
+      package: [PyYAML]
 qt5-qmake:
   windows: [qt5-sdk]
 qtbase5-dev:
