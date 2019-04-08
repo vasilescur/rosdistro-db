@@ -307,6 +307,30 @@ python-yaml:
     pip:
       depends: [yaml-cpp]
       packages: [PyYAML]
+python3-catkin-pkg-modules:
+  windows:
+    pip:
+      package: [catkin-pkg]
+python3-empy:
+  windows:
+    pip:
+      package: [empy]
+python3-nose:
+  windows:
+    pip:
+      package: [nose]
+python3-numpy:
+  windows:
+    pip:
+      package: [numpy]
+python3-pytest:
+  windows:
+    pip:
+      package: [pytest]
+python3-qt5-bindings:
+  windows:
+    pip:
+      package: []
 qt5-qmake:
   windows: [qt5-sdk]
 qtbase5-dev:
