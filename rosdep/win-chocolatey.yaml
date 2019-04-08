@@ -68,6 +68,8 @@ libflann:
   windows: [libflann]
 libflann-dev:
   windows: [libflann]
+libfreetype6:
+  windows: []
 libgazebo9-dev:
   windows: [gazebo9]
 libgflags-dev:
