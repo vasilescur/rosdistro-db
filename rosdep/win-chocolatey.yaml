@@ -49,6 +49,8 @@ gtk3:
     chocolatey:
       depends: [libpng-dev, bzip2]
       packages: [gtk3]
+hddtemp:
+  windows: []
 libazure-iot-sdk-c:
   windows: [libazure-iot-sdk-c]
 libcairo2-dev:
@@ -210,6 +212,10 @@ python-bson:
   windows:
     pip:
       packages: [bson, pymongo]
+python-cairo:
+  windows:
+    pip:
+      packages: [pycairo]
 python-catkin-pkg:
   windows:
     pip:
@@ -293,11 +299,25 @@ python-pydot:
   windows:
     pip:
       packages: [pydot]
+python-pygraphviz:
+  windows:
+    pip:
+      package: [pygraphviz]
 python-qt5-bindings:
   windows:
     chocolatey:
       depends: [qtbase5-dev]
       packages: [pyqt5, sip, pyside2]
+python-qt5-bindings-gl:
+  windows:
+    chocolatey:
+      depends: [python-qt5-bindings]
+      packages: []
+python-qt5-bindings-webkit:
+  windows:
+    chocolatey:
+      depends: [python-qt5-bindings]
+      packages: []
 python-rosdep:
   windows:
     pip:
