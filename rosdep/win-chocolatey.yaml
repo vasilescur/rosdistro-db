@@ -307,7 +307,7 @@ python-qt5-bindings:
   windows:
     chocolatey:
       depends: [qtbase5-dev]
-      packages: [pyqt5, sip, pyside2]
+      packages: [python3-pyqt5, python3-sip]
 python-qt5-bindings-gl:
   windows:
     chocolatey:
