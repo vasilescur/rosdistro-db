@@ -302,7 +302,7 @@ python-pydot:
 python-pygraphviz:
   windows:
     pip:
-      package: [pygraphviz]
+      packages: [pygraphviz]
 python-qt5-bindings:
   windows:
     chocolatey:
@@ -349,7 +349,7 @@ python-wstool:
 python-wxtools:
   windows:
     pip:
-      package: [wxPython]
+      packages: [wxPython]
 python-yaml:
   windows:
     pip:
@@ -358,39 +358,39 @@ python-yaml:
 python3-catkin-pkg-modules:
   windows:
     pip:
-      package: [catkin-pkg]
+      packages: [catkin-pkg]
 python3-empy:
   windows:
     pip:
-      package: [empy]
+      packages: [empy]
 python3-flake8:
   windows:
     pip:
-      package: [flake8]
+      packages: [flake8]
 python3-pygraphviz:
   windows:
     pip:
-      package: [pygraphviz]
+      packages: [pygraphviz]
 python3-matplotlib:
   windows:
     pip:
-      package: [matplotlib]
+      packages: [matplotlib]
 python3-lark-parser:
   windows:
     pip:
-      package: [lark-parser]
+      packages: [lark-parser]
 python3-lxml:
   windows:
     pip:
-      package: [lxml]
+      packages: [lxml]
 python3-nose:
   windows:
     pip:
-      package: [nose]
+      packages: [nose]
 python3-numpy:
   windows:
     pip:
-      package: [numpy]
+      packages: [numpy]
 python3-opencv:
   windows:
     pip:
@@ -398,31 +398,31 @@ python3-opencv:
 python3-pep8:
   windows:
     pip:
-      package: [pydot]
+      packages: [pydot]
 python3-pkg-resources:
   windows: []
 python3-psutil:
   windows:
     pip:
-      package: [psutil]
+      packages: [psutil]
 python3-pydot:
   windows:
     pip:
-      package: [pydot]
+      packages: [pydot]
 python3-pytest:
   windows:
     pip:
-      package: [pytest]
+      packages: [pytest]
 python3-qt5-bindings:
   windows: []
 python3-setuptools:
   windows:
     pip:
-      package: [setuptools]
+      packages: [setuptools]
 python3-yaml:
   windows:
     pip:
-      package: [PyYAML]
+      packages: [PyYAML]
 qt5-qmake:
   windows: [qt5-sdk]
 qtbase5-dev:
@@ -454,7 +454,7 @@ vcpython:
 wxpython:
   windows:
     pip:
-      package: [wxPython]
+      packages: [wxPython]
 yaml:
   windows: []
 yaml-cpp:
