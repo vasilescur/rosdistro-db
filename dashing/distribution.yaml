@@ -5,6 +5,8 @@
 release_platforms:
   ubuntu:
   - bionic
+  windows:
+  - '10'
 repositories:
   ament_cmake:
     doc:
