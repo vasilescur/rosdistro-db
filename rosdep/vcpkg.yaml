@@ -1,0 +1,6 @@
+ftdi-eeprom:
+  windows: []
+libusb-dev:
+  windows: []
+libftdi-dev:
+  windows: []
