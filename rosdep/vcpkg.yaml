@@ -3,7 +3,7 @@ ftdi-eeprom:
 libusb-dev:
   windows:
     vcpkg:
-      packages: [libusb-compat]
+      packages: [libusb-win32]
 libftdi-dev:
   windows:
     vcpkg:
