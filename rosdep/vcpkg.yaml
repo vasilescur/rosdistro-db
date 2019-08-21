@@ -8,3 +8,9 @@ libftdi-dev:
   windows:
     vcpkg:
       packages: [libftdi]
+
+# rosdep packages
+libssl-dev:
+  windows:
+    vcpkg:
+      packages: [openssl]
