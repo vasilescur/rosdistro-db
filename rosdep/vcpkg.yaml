@@ -40,3 +40,7 @@ graphicsmagick:
   windows:
     vcpkg:
       packages: [graphicsmagick]
+nlopt:
+  windows:
+    vcpkg:
+      packages: [nlopt]
