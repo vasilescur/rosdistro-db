@@ -44,3 +44,7 @@ nlopt:
   windows:
     vcpkg:
       packages: [nlopt]
+libnlopt0:
+  windows:
+    vcpkg:
+      packages: [nlopt]
